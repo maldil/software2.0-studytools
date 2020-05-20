@@ -1,6 +1,6 @@
-**INPUT** : You can use this script to generate associate rules for multiple ML libraries and cascading library updates.
+**INPUT** : You can use main_fp_growth.py to generate associate rules for multiple ML libraries and cascading library updates.
         
-        1. Use the output of [script](https://github.com/maldil/software2.0-studytools/blob/master/DetectingMLLibraries/main_library_detector.py) that contain all the ML libraries in each project. 
+   Use the output of [script](https://github.com/maldil/software2.0-studytools/blob/master/DetectingMLLibraries/main_library_detector.py) that contain all the ML libraries in each project. 
   
 **OUPUT** : 
 
