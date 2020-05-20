@@ -8,8 +8,8 @@ import argparse
 sc = SparkContext('local')
 spark = SparkSession(sc)
 sc.setLogLevel("ERROR")
-# FILE_PATH = '/Users/dilhara/Documents/TOSEM/DATA/multi_lib_upgrades.txt'
-FILE_PATH = '/Users/dilhara/Documents/TOSEM/DATA/non_ml_lib_libs.txt'
+
+FILE_PATH = '/non_ml_lib_libs.txt'   # Define the CSV file path here
 
 
 def process():
