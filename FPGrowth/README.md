@@ -7,7 +7,7 @@
 
 **Usage** : 
 
-        1. You can have to install apache spark (guidance = https://spark.apache.org/docs/latest/)
+        1. You have to install apache spark (guidance = https://spark.apache.org/docs/latest/)
         2. Define the variable FILE_PATH in the main_fp_growth.py
-        3. Use `spark-submit` main_fp_growth.py` to generate assosiation rules
+        3. Use the command `spark-submit` main_fp_growth.py` to generate assosiation rules
 
