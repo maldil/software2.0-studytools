@@ -1,4 +1,11 @@
-# Software 2.0 - Study tools
-This repository gives all the tools that used in the study **Understanding Software-2.0: A Study of Machine Learning library usage and evolution**
+These tools can be used to extract ML library APIs from the projects.
 
-If you have any question regarding the usage of this toolset, reach us via https://serene-beach-16261.herokuapp.com (use the *contact us* in the People tab)
+     1. The script (main_collect_ML_APIs_AST.py ) iterates all the given projects and extract all the ML library package names 
+     2. The script (main_collect_ml_api_type_Inference.py) collects all the ML library APIs together with the ML API usage in references of ML constructs. 
+     
+**Usage**: 
+       
+     1. main_collect_ML_APIs_AST.py <the folder to download projects> <csv file with projects>
+     2. main_collect_ml_api_type_Inference.py <the folder to download projects> <csv file with projects>
+
+
