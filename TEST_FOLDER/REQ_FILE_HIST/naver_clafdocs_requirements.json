@@ -1,0 +1,23 @@
+[
+    {
+        "PATH": "docs/requirements.txt",
+        "GIT": "https://github.com/naver/claf.git",
+        "HEX": "1350f881f9c34a1d116139a1a71c69780058e113",
+        "Auth_Email": "humanbrain.djlee@gmail.com",
+        "Auth_Name": "DongjunLee",
+        "Auth_Date": "05/16/2019, 14:46:12",
+        "Com_Email": "humanbrain.djlee@gmail.com",
+        "Com_Name": "DongjunLee",
+        "Com_Date": "05/16/2019, 14:46:12",
+        "CODE_DIFF": {
+            "Addition": [
+                "# Documentation",
+                "Sphinx",
+                "recommonmark",
+                "sphinx_markdown_tables",
+                "git+https://github.com/DongjunLee/sphinx_rtd_theme.git"
+            ],
+            "Deletion": []
+        }
+    }
+]

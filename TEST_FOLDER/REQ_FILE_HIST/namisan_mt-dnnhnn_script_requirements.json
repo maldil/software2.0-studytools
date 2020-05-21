@@ -1,0 +1,48 @@
+[
+    {
+        "PATH": "hnn/script/requirements.txt",
+        "GIT": "https://github.com/namisan/mt-dnn.git",
+        "HEX": "478b9b0fa1d938666cbd06386a604dafa3065d3b",
+        "Auth_Email": "38195654+BigBird01@users.noreply.github.com",
+        "Auth_Name": "Pengcheng He",
+        "Auth_Date": "10/29/2019, 14:10:47",
+        "Com_Email": "noreply@github.com",
+        "Com_Name": "GitHub",
+        "Com_Date": "10/29/2019, 14:10:47",
+        "CODE_DIFF": {
+            "Addition": [
+                "nltk"
+            ],
+            "Deletion": [
+                "nltk==3.4.1"
+            ]
+        }
+    },
+    {
+        "PATH": "hnn/script/requirements.txt",
+        "GIT": "https://github.com/namisan/mt-dnn.git",
+        "HEX": "fd9b226519d7333a9b03b4dd78203fc08d4ec243",
+        "Auth_Email": "penhe@microsoft.com",
+        "Auth_Name": "Pengcheng He",
+        "Auth_Date": "10/27/2019, 02:50:51",
+        "Com_Email": "penhe@microsoft.com",
+        "Com_Name": "Pengcheng He",
+        "Com_Date": "10/27/2019, 04:05:08",
+        "CODE_DIFF": {
+            "Addition": [
+                "cython",
+                "nltk==3.4.1",
+                "numpy",
+                "regex",
+                "scipy",
+                "sklearn",
+                "tensorflow",
+                "torch",
+                "tqdm",
+                "ujson",
+                "xmltodict"
+            ],
+            "Deletion": []
+        }
+    }
+]

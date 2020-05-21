@@ -1,0 +1,53 @@
+[
+    {
+        "PATH": "docs/requirements.txt",
+        "GIT": "https://github.com/airaria/TextBrewer.git",
+        "HEX": "646fd03b0bebb741ecd65134fdd72cd11f1c7591",
+        "Auth_Email": "yangziqing@163.com",
+        "Auth_Name": "YangZiqing",
+        "Auth_Date": "03/20/2020, 11:29:29",
+        "Com_Email": "yangziqing@163.com",
+        "Com_Name": "YangZiqing",
+        "Com_Date": "03/20/2020, 11:29:29",
+        "CODE_DIFF": {
+            "Addition": [
+                "sphinx==2.4.4"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "docs/requirements.txt",
+        "GIT": "https://github.com/airaria/TextBrewer.git",
+        "HEX": "c5a21048f0a95aee1da44d9cdef6d5b863cc8733",
+        "Auth_Email": "yangziqing@163.com",
+        "Auth_Name": "YangZiqing",
+        "Auth_Date": "03/20/2020, 10:52:12",
+        "Com_Email": "yangziqing@163.com",
+        "Com_Name": "YangZiqing",
+        "Com_Date": "03/20/2020, 10:52:12",
+        "CODE_DIFF": {
+            "Addition": [
+                "sphinxcontrib.napoleon"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "docs/requirements.txt",
+        "GIT": "https://github.com/airaria/TextBrewer.git",
+        "HEX": "bb7ca46892b733e96a4e7dfb26c4300eefe1d183",
+        "Auth_Email": "yangziqing@163.com",
+        "Auth_Name": "YangZiqing",
+        "Auth_Date": "03/20/2020, 10:50:26",
+        "Com_Email": "yangziqing@163.com",
+        "Com_Name": "YangZiqing",
+        "Com_Date": "03/20/2020, 10:50:26",
+        "CODE_DIFF": {
+            "Addition": [
+                "sphinx_markdown_tables"
+            ],
+            "Deletion": []
+        }
+    }
+]

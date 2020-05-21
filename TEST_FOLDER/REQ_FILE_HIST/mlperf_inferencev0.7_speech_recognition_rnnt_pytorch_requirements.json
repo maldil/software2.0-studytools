@@ -1,0 +1,33 @@
+[
+    {
+        "PATH": "v0.7/speech_recognition/rnnt/pytorch/requirements.txt",
+        "GIT": "https://github.com/mlperf/inference.git",
+        "HEX": "d140888c48dead2b215e77126b61a96288c84774",
+        "Auth_Email": "galv@users.noreply.github.com",
+        "Auth_Name": "Daniel Galvez",
+        "Auth_Date": "04/28/2020, 11:12:08",
+        "Com_Email": "noreply@github.com",
+        "Com_Name": "GitHub",
+        "Com_Date": "04/28/2020, 11:12:08",
+        "CODE_DIFF": {
+            "Addition": [
+                "pandas==0.24.2",
+                "tqdm==4.31.1",
+                "ascii-graph==1.5.1",
+                "wrapt==1.10.11",
+                "librosa==0.7.2",
+                "toml==0.10.00",
+                "SoundFile==0.10.3.post1",
+                "ipdb==0.13.2",
+                "sox==1.3.7",
+                "tensorboard==2.0.0",
+                "Unidecode==1.1.1",
+                "inflect==4.1.0",
+                "requests==2.23.0",
+                "autopep8==1.5.1",
+                "coverage==5.0.4"
+            ],
+            "Deletion": []
+        }
+    }
+]

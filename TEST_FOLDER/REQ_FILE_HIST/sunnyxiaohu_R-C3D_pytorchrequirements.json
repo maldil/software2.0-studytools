@@ -1,0 +1,25 @@
+[
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/sunnyxiaohu/R-C3D.pytorch.git",
+        "HEX": "c301a728d0dc4be47c4b5721a94bbbeac44bedf0",
+        "Auth_Email": "515740295@qq.com",
+        "Auth_Name": "sunnyxiaohu",
+        "Auth_Date": "07/17/2018, 10:26:23",
+        "Com_Email": "515740295@qq.com",
+        "Com_Name": "sunnyxiaohu",
+        "Com_Date": "07/17/2018, 10:26:23",
+        "CODE_DIFF": {
+            "Addition": [
+                "cython",
+                "cffi",
+                "opencv-python",
+                "scipy",
+                "easydict",
+                "matplotlib",
+                "pyyaml"
+            ],
+            "Deletion": []
+        }
+    }
+]

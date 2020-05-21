@@ -1,0 +1,59 @@
+[
+    {
+        "PATH": "convlab/modules/e2e/multiwoz/Sequicity/requirements.txt",
+        "GIT": "https://github.com/ConvLab/ConvLab.git",
+        "HEX": "25f135abd929fe727802d3044ab8eb2e9c39a752",
+        "Auth_Email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "Auth_Name": "dependabot[bot]",
+        "Auth_Date": "12/10/2019, 06:33:45",
+        "Com_Email": "noreply@github.com",
+        "Com_Name": "GitHub",
+        "Com_Date": "12/10/2019, 06:33:45",
+        "CODE_DIFF": {
+            "Addition": [
+                "nltk==3.4.5"
+            ],
+            "Deletion": [
+                "nltk==3.2.1"
+            ]
+        }
+    },
+    {
+        "PATH": "convlab/modules/e2e/multiwoz/Sequicity/requirements.txt",
+        "GIT": "https://github.com/ConvLab/ConvLab.git",
+        "HEX": "189f6be1d1983a8c9699a3bb71b47e71541187c4",
+        "Auth_Email": "jincli@microsoft.com",
+        "Auth_Name": "Jincli",
+        "Auth_Date": "05/23/2019, 15:54:28",
+        "Com_Email": "jincli@microsoft.com",
+        "Com_Name": "Jincli",
+        "Com_Date": "05/23/2019, 15:54:28",
+        "CODE_DIFF": {
+            "Addition": [
+                "numpy==1.14.3",
+                "nltk==3.2.1",
+                "torch==0.3.1"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "convlab/modules/e2e/multiwoz/Sequicity/requirements.txt",
+        "GIT": "https://github.com/ConvLab/ConvLab.git",
+        "HEX": "dee56fe5df97746dbf7e5de7c35d3423ca0a7b25",
+        "Auth_Email": "jincli@microsoft.com",
+        "Auth_Name": "Jincli",
+        "Auth_Date": "05/23/2019, 15:54:28",
+        "Com_Email": "jincli@microsoft.com",
+        "Com_Name": "Jincli",
+        "Com_Date": "05/23/2019, 15:54:28",
+        "CODE_DIFF": {
+            "Addition": [
+                "numpy==1.14.3",
+                "nltk==3.2.1",
+                "torch==0.3.1"
+            ],
+            "Deletion": []
+        }
+    }
+]

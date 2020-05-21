@@ -1,0 +1,47 @@
+[
+    {
+        "PATH": "ParlAI/requirements.txt",
+        "GIT": "https://github.com/natashamjaques/neural_chat.git",
+        "HEX": "a48a7586d13baa544c959a55036b65121a0fe510",
+        "Auth_Email": "a_saleh@matlaber8.media.mit.edu",
+        "Auth_Name": "a_saleh",
+        "Auth_Date": "09/06/2019, 17:57:13",
+        "Com_Email": "a_saleh@matlaber8.media.mit.edu",
+        "Com_Name": "a_saleh",
+        "Com_Date": "09/06/2019, 17:57:13",
+        "CODE_DIFF": {
+            "Addition": [
+                "Pillow",
+                "boto3",
+                "botocore",
+                "flake8-rst-docstrings",
+                "flake8-docstrings",
+                "flake8-bugbear",
+                "flake8",
+                "gitpython",
+                "h5py",
+                "joblib",
+                "nltk",
+                "numpy",
+                "pexpect",
+                "py-gfm",
+                "pyzmq",
+                "regex",
+                "requests-mock",
+                "requests",
+                "scikit-learn",
+                "scipy",
+                "sh",
+                "sphinx",
+                "sphinx_rtd_theme",
+                "tqdm",
+                "websocket-client",
+                "websocket-server",
+                "py-rouge",
+                "pre-commit",
+                "docutils<0.15"
+            ],
+            "Deletion": []
+        }
+    }
+]

@@ -1,0 +1,157 @@
+[
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/stanfordnlp/cocoa.git",
+        "HEX": "ff030f3f6befd8093a5f8df2519cd508277ba38b",
+        "Auth_Email": "hehea@amazon.com",
+        "Auth_Name": "He He",
+        "Auth_Date": "12/03/2018, 11:52:19",
+        "Com_Email": "hehea@amazon.com",
+        "Com_Name": "He He",
+        "Com_Date": "12/03/2018, 11:52:19",
+        "CODE_DIFF": {
+            "Addition": [
+                "nltk==3.2.4",
+                "whoosh==2.7.4",
+                "ujson=1.35",
+                "numpy=1.13.3",
+                "matplotlib=2.0.2",
+                "flask=0.12.2",
+                "flask-socketio=2.8.5",
+                "scipy=1.0.1",
+                "scikit-learn==0.19.0",
+                "datasketch==1.2.3",
+                "langdetect==1.0.7"
+            ],
+            "Deletion": [
+                "nltk",
+                "whoosh",
+                "ujson",
+                "numpy",
+                "matplotlib",
+                "flask",
+                "flask-socketio",
+                "boto",
+                "scipy",
+                "fuzzywuzzy",
+                "datasketch"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/stanfordnlp/cocoa.git",
+        "HEX": "48bb83c5f47f87388391045d3b5fe7befafd2978",
+        "Auth_Email": "hhe.xiy@gmail.com",
+        "Auth_Name": "He He",
+        "Auth_Date": "10/29/2018, 22:01:34",
+        "Com_Email": "hhe.xiy@gmail.com",
+        "Com_Name": "He He",
+        "Com_Date": "10/29/2018, 22:01:34",
+        "CODE_DIFF": {
+            "Addition": [
+                "datasketch"
+            ],
+            "Deletion": [
+                "pygtrie",
+                "pandas",
+                "seaborn",
+                "datasketch"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/stanfordnlp/cocoa.git",
+        "HEX": "63e53cb08d90b22ede324d4509b9d81d838532aa",
+        "Auth_Email": "derekchen14@gmail.com",
+        "Auth_Name": "Derek Chen",
+        "Auth_Date": "11/11/2017, 14:38:21",
+        "Com_Email": "derekchen14@gmail.com",
+        "Com_Name": "Derek Chen",
+        "Com_Date": "11/11/2017, 14:38:21",
+        "CODE_DIFF": {
+            "Addition": [
+                "fuzzywuzzy",
+                "datasketch"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/stanfordnlp/cocoa.git",
+        "HEX": "84609bd4d794639a110f4163ecc9492fac5323f5",
+        "Auth_Email": "hhe.xiy@gmail.com",
+        "Auth_Name": "He He",
+        "Auth_Date": "09/17/2017, 18:50:47",
+        "Com_Email": "hhe.xiy@gmail.com",
+        "Com_Name": "He He",
+        "Com_Date": "09/17/2017, 18:50:47",
+        "CODE_DIFF": {
+            "Addition": [
+                "scipy",
+                "pandas",
+                "seaborn"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/stanfordnlp/cocoa.git",
+        "HEX": "01fb2406b91c3982f93a720a1f81109a409d00bf",
+        "Auth_Email": "hhe.xiy@gmail.com",
+        "Auth_Name": "He He",
+        "Auth_Date": "08/31/2017, 21:05:46",
+        "Com_Email": "hhe.xiy@gmail.com",
+        "Com_Name": "He He",
+        "Com_Date": "08/31/2017, 21:05:46",
+        "CODE_DIFF": {
+            "Addition": [
+                "numpy",
+                "matplotlib",
+                "flask",
+                "flask-socketio",
+                "boto"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/stanfordnlp/cocoa.git",
+        "HEX": "22e0b87fb555cab6cc889eebf125b5d109ff5195",
+        "Auth_Email": "hhe.xiy@gmail.com",
+        "Auth_Name": "hehe",
+        "Auth_Date": "08/28/2017, 22:35:29",
+        "Com_Email": "hhe.xiy@gmail.com",
+        "Com_Name": "hehe",
+        "Com_Date": "08/28/2017, 22:35:29",
+        "CODE_DIFF": {
+            "Addition": [
+                "ujson"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/stanfordnlp/cocoa.git",
+        "HEX": "68c914d0028cb9dc02e7ddc7b78023fdd22019f6",
+        "Auth_Email": "hhe.xiy@gmail.com",
+        "Auth_Name": "hehe",
+        "Auth_Date": "08/27/2017, 21:37:08",
+        "Com_Email": "hhe.xiy@gmail.com",
+        "Com_Name": "hehe",
+        "Com_Date": "08/27/2017, 21:37:08",
+        "CODE_DIFF": {
+            "Addition": [
+                "nltk",
+                "whoosh",
+                "pygtrie"
+            ],
+            "Deletion": []
+        }
+    }
+]

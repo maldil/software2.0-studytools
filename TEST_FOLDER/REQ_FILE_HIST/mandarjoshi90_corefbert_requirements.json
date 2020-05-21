@@ -1,0 +1,39 @@
+[
+    {
+        "PATH": "bert/requirements.txt",
+        "GIT": "https://github.com/mandarjoshi90/coref.git",
+        "HEX": "610919657031bbcc84b5e7ea7b1819f02f49354c",
+        "Auth_Email": "mandarj@devfair0268.h2.fair",
+        "Auth_Name": "Mandar Joshi",
+        "Auth_Date": "03/06/2019, 21:42:57",
+        "Com_Email": "mandarj@devfair0268.h2.fair",
+        "Com_Name": "Mandar Joshi",
+        "Com_Date": "03/06/2019, 21:42:57",
+        "CODE_DIFF": {
+            "Addition": [
+                "tensorflow >= 1.11.0   # CPU Version of TensorFlow.",
+                "# tensorflow-gpu  >= 1.11.0  # GPU version of TensorFlow."
+            ],
+            "Deletion": [
+                "Subproject commit ffbda2a1aafe530525212d13194cc84d92ed0313"
+            ]
+        }
+    },
+    {
+        "PATH": "bert/requirements.txt",
+        "GIT": "https://github.com/mandarjoshi90/coref.git",
+        "HEX": "9d9891dc6e0c49ac2eac3f7dfa8b45d14012bee9",
+        "Auth_Email": "mandarj@devfair0268.h2.fair",
+        "Auth_Name": "Mandar Joshi",
+        "Auth_Date": "03/06/2019, 21:39:42",
+        "Com_Email": "mandarj@devfair0268.h2.fair",
+        "Com_Name": "Mandar Joshi",
+        "Com_Date": "03/06/2019, 21:39:42",
+        "CODE_DIFF": {
+            "Addition": [
+                "Subproject commit ffbda2a1aafe530525212d13194cc84d92ed0313"
+            ],
+            "Deletion": []
+        }
+    }
+]

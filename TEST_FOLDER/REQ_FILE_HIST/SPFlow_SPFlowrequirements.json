@@ -1,0 +1,327 @@
+[
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "6876531cfe948c0f5b7bf98735233316f59b1ebc",
+        "Auth_Email": "steven.lang.mz@gmail.com",
+        "Auth_Name": "Steven Lang",
+        "Auth_Date": "04/20/2020, 09:59:44",
+        "Com_Email": "steven.lang.mz@gmail.com",
+        "Com_Name": "Steven Lang",
+        "Com_Date": "04/20/2020, 09:59:44",
+        "CODE_DIFF": {
+            "Addition": [
+                "pytest",
+                "dataclasses"
+            ],
+            "Deletion": [
+                "pytest"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "521eb2c14be60ae6e24238802e185beeaccfe6df",
+        "Auth_Email": "molina@cs.tu-darmstadt.de",
+        "Auth_Name": "Alejandro Molina",
+        "Auth_Date": "02/06/2020, 12:39:16",
+        "Com_Email": "molina@cs.tu-darmstadt.de",
+        "Com_Name": "Alejandro Molina",
+        "Com_Date": "02/06/2020, 12:39:16",
+        "CODE_DIFF": {
+            "Addition": [
+                "PyQt5==5.9.2"
+            ],
+            "Deletion": [
+                "PyQt5"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "79c6f4f5d5d8a75a2ef92ba0d670deaabed52b6a",
+        "Auth_Email": "molina@cs.tu-darmstadt.de",
+        "Auth_Name": "molina",
+        "Auth_Date": "06/05/2019, 17:03:13",
+        "Com_Email": "molina@cs.tu-darmstadt.de",
+        "Com_Name": "molina",
+        "Com_Date": "06/05/2019, 17:03:13",
+        "CODE_DIFF": {
+            "Addition": [
+                "scipy==1.2"
+            ],
+            "Deletion": [
+                "scipy"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "de9122c000ccfdd2d8a0a575d0de6e0f2577454d",
+        "Auth_Email": "molina@cs.tu-darmstadt.de",
+        "Auth_Name": "Alejandro Molina",
+        "Auth_Date": "03/22/2019, 14:21:12",
+        "Com_Email": "molina@cs.tu-darmstadt.de",
+        "Com_Name": "Alejandro Molina",
+        "Com_Date": "03/22/2019, 14:21:12",
+        "CODE_DIFF": {
+            "Addition": [
+                "arff",
+                "pytest"
+            ],
+            "Deletion": [
+                "arff"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "f82ae95a3edba3be41ad80797a6b5bda24c4d078",
+        "Auth_Email": "molina@cs.tu-darmstadt.de",
+        "Auth_Name": "Alejandro Molina",
+        "Auth_Date": "03/06/2019, 12:25:55",
+        "Com_Email": "molina@cs.tu-darmstadt.de",
+        "Com_Name": "Alejandro Molina",
+        "Com_Date": "03/06/2019, 12:25:55",
+        "CODE_DIFF": {
+            "Addition": [
+                "arff"
+            ],
+            "Deletion": [
+                "arff",
+                "torch",
+                "torchvision"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "cdbee5c17b1ed690813eb71f31f9b962baa478b7",
+        "Auth_Email": "pranav0212.s@gmail.com",
+        "Auth_Name": "pranavsubramani",
+        "Auth_Date": "12/19/2018, 23:03:23",
+        "Com_Email": "pranav0212.s@gmail.com",
+        "Com_Name": "pranavsubramani",
+        "Com_Date": "12/19/2018, 23:03:23",
+        "CODE_DIFF": {
+            "Addition": [
+                "arff",
+                "torch",
+                "torchvision"
+            ],
+            "Deletion": [
+                "arff"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "25988df755b9858b92a90c7d0b81ddf9ceca4196",
+        "Auth_Email": "molina@cs.tu-darmstadt.de",
+        "Auth_Name": "molina",
+        "Auth_Date": "12/06/2018, 16:04:36",
+        "Com_Email": "molina@cs.tu-darmstadt.de",
+        "Com_Name": "molina",
+        "Com_Date": "12/06/2018, 16:04:36",
+        "CODE_DIFF": {
+            "Addition": [],
+            "Deletion": [
+                "cppyy"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "0fc661a6430864408c7a8d38d6fc24a0dfb61794",
+        "Auth_Email": "molina@cs.tu-darmstadt.de",
+        "Auth_Name": "molina",
+        "Auth_Date": "12/04/2018, 12:43:35",
+        "Com_Email": "molina@cs.tu-darmstadt.de",
+        "Com_Name": "molina",
+        "Com_Date": "12/04/2018, 12:43:35",
+        "CODE_DIFF": {
+            "Addition": [
+                "ete3>=3.1.1",
+                "PyQt5",
+                "cppyy",
+                "arff"
+            ],
+            "Deletion": [
+                "ete3",
+                "PyQt5"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "a64317c31e9d054e8930dbe9e15a14f74c2a55ed",
+        "Auth_Email": "molina@cs.tu-darmstadt.de",
+        "Auth_Name": "molina",
+        "Auth_Date": "12/04/2018, 12:26:13",
+        "Com_Email": "molina@cs.tu-darmstadt.de",
+        "Com_Name": "molina",
+        "Com_Date": "12/04/2018, 12:26:13",
+        "CODE_DIFF": {
+            "Addition": [
+                "statsmodels",
+                "matplotlib",
+                "pydot",
+                "tqdm",
+                "ete3",
+                "PyQt5"
+            ],
+            "Deletion": [
+                "matplotlib",
+                "pandas",
+                "numba",
+                "pydot",
+                "natsort",
+                "statsmodels",
+                "tqdm",
+                "py-cpuinfo",
+                "#tensorflow",
+                "arff",
+                "statsmodels",
+                "cppyy"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "447efa1976fe12fcc2af3623c55f946b56e6c0eb",
+        "Auth_Email": "claas@voelcker.net",
+        "Auth_Name": "cvoelcker (iliricon)",
+        "Auth_Date": "11/01/2018, 15:35:36",
+        "Com_Email": "claas@voelcker.net",
+        "Com_Name": "cvoelcker (iliricon)",
+        "Com_Date": "11/01/2018, 18:19:13",
+        "CODE_DIFF": {
+            "Addition": [
+                "statsmodels",
+                "cppyy"
+            ],
+            "Deletion": [
+                "jupyter",
+                "plotly==2.4.1",
+                "rpy2",
+                "cppyy"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "04f97136134ac7c6605f34af91ec483cad3c604f",
+        "Auth_Email": "claas@voelcker.net",
+        "Auth_Name": "cvoelcker (iliricon)",
+        "Auth_Date": "09/19/2018, 13:08:39",
+        "Com_Email": "claas@voelcker.net",
+        "Com_Name": "cvoelcker (iliricon)",
+        "Com_Date": "09/19/2018, 13:08:39",
+        "CODE_DIFF": {
+            "Addition": [
+                "plotly==2.4.1"
+            ],
+            "Deletion": [
+                "plotly"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "b0fa35512583a799970635fe58b0ef408dc8618a",
+        "Auth_Email": "claas@voelcker.net",
+        "Auth_Name": "cvoelcker (iliricon)",
+        "Auth_Date": "09/11/2018, 17:25:15",
+        "Com_Email": "claas@voelcker.net",
+        "Com_Name": "cvoelcker (iliricon)",
+        "Com_Date": "09/11/2018, 17:25:15",
+        "CODE_DIFF": {
+            "Addition": [
+                "arff"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "d1cd01fc5f5d08024fbe690080aa59508b1c1929",
+        "Auth_Email": "claas@voelcker.net",
+        "Auth_Name": "cvoelcker (iliricon)",
+        "Auth_Date": "09/11/2018, 15:20:57",
+        "Com_Email": "claas@voelcker.net",
+        "Com_Name": "cvoelcker (iliricon)",
+        "Com_Date": "09/11/2018, 15:21:21",
+        "CODE_DIFF": {
+            "Addition": [
+                "#tensorflow",
+                "sympy"
+            ],
+            "Deletion": [
+                "tensorflow"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "52ae9d124cc92205ba4bdb2f299154f37a47ac8e",
+        "Auth_Email": "claas@voelcker.net",
+        "Auth_Name": "cvoelcker (iliricon)",
+        "Auth_Date": "08/13/2018, 15:11:32",
+        "Com_Email": "claas@voelcker.net",
+        "Com_Name": "cvoelcker (iliricon)",
+        "Com_Date": "08/13/2018, 15:11:32",
+        "CODE_DIFF": {
+            "Addition": [
+                "cppyy",
+                "natsort",
+                "statsmodels",
+                "tqdm",
+                "py-cpuinfo",
+                "lark-parser",
+                "tensorflow"
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/SPFlow/SPFlow.git",
+        "HEX": "cf4275d333cfc9dfca3a6b8ad6011adc2f8a5965",
+        "Auth_Email": "claas@voelcker.net",
+        "Auth_Name": "cvoelcker (iliricon)",
+        "Auth_Date": "08/13/2018, 15:04:48",
+        "Com_Email": "claas@voelcker.net",
+        "Com_Name": "cvoelcker (iliricon)",
+        "Com_Date": "08/13/2018, 15:04:48",
+        "CODE_DIFF": {
+            "Addition": [
+                "jupyter",
+                "numpy",
+                "matplotlib",
+                "plotly",
+                "pandas",
+                "scipy",
+                "sklearn",
+                "numba",
+                "rpy2",
+                "networkx",
+                "pydot",
+                "joblib"
+            ],
+            "Deletion": []
+        }
+    }
+]

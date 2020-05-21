@@ -1,0 +1,21 @@
+[
+    {
+        "PATH": "learning_to_learn/requirements.txt",
+        "GIT": "https://github.com/chainer/models.git",
+        "HEX": "dcf166cbba5e6a1d90d206362a7fe016adad507f",
+        "Auth_Email": "sosk@preferred.jp",
+        "Auth_Name": "Sosuke",
+        "Auth_Date": "07/04/2019, 09:58:30",
+        "Com_Email": "sosk@preferred.jp",
+        "Com_Name": "Sosuke",
+        "Com_Date": "07/04/2019, 09:58:30",
+        "CODE_DIFF": {
+            "Addition": [
+                "chainer>=6.0.0",
+                "cupy>=6.0.0",
+                "seaborn==0.9.0"
+            ],
+            "Deletion": []
+        }
+    }
+]

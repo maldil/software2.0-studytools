@@ -1,0 +1,69 @@
+[
+    {
+        "PATH": "baselines/models/bert_wwm_ext/requirements.txt",
+        "GIT": "https://github.com/ChineseGLUE/ChineseGLUE.git",
+        "HEX": "6b770602a50111a5a4eb3b7e6c55ef53e70c9086",
+        "Auth_Email": "tianyin@i-i.ai",
+        "Auth_Name": "iic_tianyin",
+        "Auth_Date": "10/07/2019, 21:40:32",
+        "Com_Email": "tianyin@i-i.ai",
+        "Com_Name": "iic_tianyin",
+        "Com_Date": "10/07/2019, 21:40:32",
+        "CODE_DIFF": {
+            "Addition": [],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "baselines/models/bert_wwm_ext/requirements.txt",
+        "GIT": "https://github.com/ChineseGLUE/ChineseGLUE.git",
+        "HEX": "c17d1e9bfb9760518740d5cdc22f98c989b6a63c",
+        "Auth_Email": "zhangxw0413@gmail.com",
+        "Auth_Name": "joytianya",
+        "Auth_Date": "10/07/2019, 14:54:39",
+        "Com_Email": "zhangxw0413@gmail.com",
+        "Com_Name": "joytianya",
+        "Com_Date": "10/07/2019, 14:54:39",
+        "CODE_DIFF": {
+            "Addition": [
+                "tensorflow >= 1.11.0   # CPU Version of TensorFlow.",
+                "# tensorflow-gpu  >= 1.11.0  # GPU version of TensorFlow."
+            ],
+            "Deletion": []
+        }
+    },
+    {
+        "PATH": "baselines/models/bert_wwm_ext/requirements.txt",
+        "GIT": "https://github.com/ChineseGLUE/ChineseGLUE.git",
+        "HEX": "9e0038f55e122da892a3fe4a141c0a5aa1943c49",
+        "Auth_Email": "zhangxw0413@gmail.com",
+        "Auth_Name": "joytianya",
+        "Auth_Date": "10/07/2019, 14:47:50",
+        "Com_Email": "zhangxw0413@gmail.com",
+        "Com_Name": "joytianya",
+        "Com_Date": "10/07/2019, 14:47:50",
+        "CODE_DIFF": {
+            "Addition": [],
+            "Deletion": [
+                "Subproject commit 88a817c37f788702a363ff935fd173b6dc6ac0d6"
+            ]
+        }
+    },
+    {
+        "PATH": "baselines/models/bert_wwm_ext/requirements.txt",
+        "GIT": "https://github.com/ChineseGLUE/ChineseGLUE.git",
+        "HEX": "90876ab2ea3cab13700912d3fcb9f87742175d55",
+        "Auth_Email": "zhangxuanwei@qiyi.com",
+        "Auth_Name": "zhangxuanwei",
+        "Auth_Date": "10/07/2019, 14:33:37",
+        "Com_Email": "zhangxuanwei@qiyi.com",
+        "Com_Name": "zhangxuanwei",
+        "Com_Date": "10/07/2019, 14:33:37",
+        "CODE_DIFF": {
+            "Addition": [
+                "Subproject commit 88a817c37f788702a363ff935fd173b6dc6ac0d6"
+            ],
+            "Deletion": []
+        }
+    }
+]

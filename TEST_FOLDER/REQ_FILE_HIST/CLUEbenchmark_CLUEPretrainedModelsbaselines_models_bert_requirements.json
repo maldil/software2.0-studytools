@@ -1,0 +1,20 @@
+[
+    {
+        "PATH": "baselines/models/bert/requirements.txt",
+        "GIT": "https://github.com/CLUEbenchmark/CLUEPretrainedModels.git",
+        "HEX": "7382c9b73449240ce7935e20112715f257a2870e",
+        "Auth_Email": "brightmart@hotmail.com",
+        "Auth_Name": "b",
+        "Auth_Date": "02/29/2020, 19:25:25",
+        "Com_Email": "brightmart@hotmail.com",
+        "Com_Name": "b",
+        "Com_Date": "02/29/2020, 19:25:25",
+        "CODE_DIFF": {
+            "Addition": [
+                "tensorflow >= 1.11.0   # CPU Version of TensorFlow.",
+                "# tensorflow-gpu  >= 1.11.0  # GPU version of TensorFlow."
+            ],
+            "Deletion": []
+        }
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/zphang/bert_on_stilts.git",
+        "HEX": "e0855e89291dc0e2e65d4389992a21cda8dcc68f",
+        "Auth_Email": "thomwolf@gmail.com",
+        "Auth_Name": "thomwolf",
+        "Auth_Date": "02/18/2019, 11:54:51",
+        "Com_Email": "thomwolf@gmail.com",
+        "Com_Name": "thomwolf",
+        "Com_Date": "02/18/2019, 11:54:51",
+        "CODE_DIFF": {
+            "Addition": [
+                "requests",
+                "# For OpenAI GPT",
+                "regex"
+            ],
+            "Deletion": [
+                "requests"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/zphang/bert_on_stilts.git",
+        "HEX": "ce5217763848fa172f87ded595d77af872e0d125",
+        "Auth_Email": "thomwolf@gmail.com",
+        "Auth_Name": "thomwolf",
+        "Auth_Date": "12/11/2018, 12:12:08",
+        "Com_Email": "thomwolf@gmail.com",
+        "Com_Name": "thomwolf",
+        "Com_Date": "12/13/2018, 12:50:44",
+        "CODE_DIFF": {
+            "Addition": [
+                "# PyTorch",
+                "torch>=0.4.1"
+            ],
+            "Deletion": [
+                "# This installs Pytorch for CUDA 8 only. If you are using a newer version,",
+                "# please visit http://pytorch.org/ and install the relevant version.",
+                "torch>=0.4.1,<0.5.0"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/zphang/bert_on_stilts.git",
+        "HEX": "ed3b62cd3bc5529b6388e405d4ada78a88903800",
+        "Auth_Email": "thomwolf@gmail.com",
+        "Auth_Name": "thomwolf",
+        "Auth_Date": "12/11/2018, 12:12:08",
+        "Com_Email": "thomwolf@gmail.com",
+        "Com_Name": "thomwolf",
+        "Com_Date": "12/11/2018, 12:12:08",
+        "CODE_DIFF": {
+            "Addition": [
+                "# PyTorch",
+                "torch>=0.4.1"
+            ],
+            "Deletion": [
+                "# This installs Pytorch for CUDA 8 only. If you are using a newer version,",
+                "# please visit http://pytorch.org/ and install the relevant version.",
+                "torch>=0.4.1,<0.5.0"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/zphang/bert_on_stilts.git",
+        "HEX": "a99b971738dc0d4eed6fd915d564f2f872f5218d",
+        "Auth_Email": "thomwolf@gmail.com",
+        "Auth_Name": "thomwolf",
+        "Auth_Date": "11/17/2018, 10:43:39",
+        "Com_Email": "thomwolf@gmail.com",
+        "Com_Name": "thomwolf",
+        "Com_Date": "11/17/2018, 10:43:39",
+        "CODE_DIFF": {
+            "Addition": [
+                "tqdm",
+                "requests"
+            ],
+            "Deletion": [
+                "tqdm>=4.19",
+                "requests>=2.18"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/zphang/bert_on_stilts.git",
+        "HEX": "1de35b624b9d7998feb4d518e4f7e8e53abac4e1",
+        "Auth_Email": "thomwolf@gmail.com",
+        "Auth_Name": "thomwolf",
+        "Auth_Date": "11/15/2018, 20:56:10",
+        "Com_Email": "thomwolf@gmail.com",
+        "Com_Name": "thomwolf",
+        "Com_Date": "11/15/2018, 20:56:10",
+        "CODE_DIFF": {
+            "Addition": [
+                "# This installs Pytorch for CUDA 8 only. If you are using a newer version,",
+                "# please visit http://pytorch.org/ and install the relevant version.",
+                "torch>=0.4.1,<0.5.0",
+                "# progress bars in model download and training scripts",
+                "tqdm>=4.19",
+                "# Accessing files from S3 directly.",
+                "boto3",
+                "# Used for downloading models over HTTP",
+                "requests>=2.18"
+            ],
+            "Deletion": [
+                "torch",
+                "tqdm"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/zphang/bert_on_stilts.git",
+        "HEX": "88c1037991d964e68e2b811cfd24dbfa4f4e1913",
+        "Auth_Email": "thomwolf@gmail.com",
+        "Auth_Name": "thomwolf",
+        "Auth_Date": "11/04/2018, 21:26:18",
+        "Com_Email": "thomwolf@gmail.com",
+        "Com_Name": "thomwolf",
+        "Com_Date": "11/04/2018, 21:26:18",
+        "CODE_DIFF": {
+            "Addition": [
+                "tqdm"
+            ],
+            "Deletion": [
+                "tqdm",
+                "pytest"
+            ]
+        }
+    },
+    {
+        "PATH": "requirements.txt",
+        "GIT": "https://github.com/zphang/bert_on_stilts.git",
+        "HEX": "0d8d2285bae1ea021516b07f6878a6b0fb8eeac0",
+        "Auth_Email": "thomwolf@gmail.com",
+        "Auth_Name": "thomwolf",
+        "Auth_Date": "11/03/2018, 12:23:00",
+        "Com_Email": "thomwolf@gmail.com",
+        "Com_Name": "thomwolf",
+        "Com_Date": "11/03/2018, 12:23:00",
+        "CODE_DIFF": {
+            "Addition": [
+                "torch",
+                "tqdm",
+                "pytest"
+            ],
+            "Deletion": []
+        }
+    }
+]

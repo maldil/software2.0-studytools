@@ -1,0 +1,20 @@
+[
+    {
+        "PATH": "baselines/models/bert_wwm_ext/requirements.txt",
+        "GIT": "https://github.com/CLUEbenchmark/CLUE.git",
+        "HEX": "2ea90461e0a0321945f880330b629ce09e0e3fd2",
+        "Auth_Email": "brightmart@hotmail.com",
+        "Auth_Name": "b",
+        "Auth_Date": "11/22/2019, 16:58:05",
+        "Com_Email": "brightmart@hotmail.com",
+        "Com_Name": "b",
+        "Com_Date": "11/22/2019, 16:58:05",
+        "CODE_DIFF": {
+            "Addition": [
+                "tensorflow >= 1.11.0   # CPU Version of TensorFlow.",
+                "# tensorflow-gpu  >= 1.11.0  # GPU version of TensorFlow."
+            ],
+            "Deletion": []
+        }
+    }
+]
