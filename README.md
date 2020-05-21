@@ -5,4 +5,4 @@ This repository gives all the tools that used in the study **Understanding Softw
 2. The tools in [MLLibraryUpdateAnalysis](https://github.com/maldil/software2.0-studytools/tree/master/MLLibraryUpdateAnalysis) generate statistics of ML library updates. It also generates a csv file with all the cascade library updates. You can use it to generate associate rules from the [script](https://github.com/maldil/software2.0-studytools/tree/master/FPGrowth) 
 3. The tools in [AnalyseMLLibConstructs](https://github.com/maldil/software2.0-studytools/tree/master/AnalyseMLLibConstructs) collects all the ML library APIs used in the projects. 
 
-If you have any question regarding the usage of this toolset, reach us via https://serene-beach-16261.herokuapp.com (use the *contact us* in the People tab)
+If you have any question regarding the usage of this toolset, please reach us via https://serene-beach-16261.herokuapp.com (use the *contact us* in the People tab)
