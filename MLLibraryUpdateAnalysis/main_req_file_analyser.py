@@ -8,9 +8,13 @@ import requirements
 import argparse
 import csv
 from fnmatch import fnmatch
+import RequirementsTXT as req
+import Util
+
 
 def clone_project(clone_path, git_link, folder_name=None):
     """
+    :return:
     :param clone_path: local path to download the project
     :param git_link: GitHub link
     :param folder_name: Folder name of the downloading project
@@ -29,7 +33,8 @@ def clone_project(clone_path, git_link, folder_name=None):
     else:
         return True
 
-def get_requirmentfile_paths(path):
+
+def get_requirement_file_paths(path: object) -> object:
     requirement = []
     pattern = "*.txt"
     requirement_names = ["requirement", "Requirement"]
@@ -41,32 +46,32 @@ def get_requirmentfile_paths(path):
                         requirement.append((os.path.join(path, name), name))
     return requirement
 
-def req_file_history(project_download,clone_links):
-    if not os.path.exists(project_download+"/TEMP"):
-        os.makedirs(project_download+"/TEMP")
-    project_download_path = project_download+"/TEMP"
 
-    if not os.path.exists(project_download+"/REQ_FILE_HIST"):
-        os.makedirs(project_download+"/REQ_FILE_HIST")
-    req_file_download_path = project_download+"/REQ_FILE_HIST"
+def req_file_history(project_download, clone_links):
+    if not os.path.exists(project_download + "/TEMP"):
+        os.makedirs(project_download + "/TEMP")
+    project_download_path = project_download + "/TEMP"
+
+    if not os.path.exists(project_download + "/REQ_FILE_HIST"):
+        os.makedirs(project_download + "/REQ_FILE_HIST")
+    req_file_download_path = project_download + "/REQ_FILE_HIST/"
 
     updated_projects = [os.path.basename(x).split('.')[0] for x in glob.glob(req_file_download_path + '*.json')]
-
-    for (project,cl_link) in clone_links:
-        project_name= project.replace('/','_')[:-4]
-        project_name= project_name.replace('.','_')
+    print(updated_projects)
+    for (project, cl_link) in clone_links:
+        project_name = project.replace('/', '_')[:-4]
+        project_name = project_name.replace('.', '_')
         if project_name in updated_projects:
             continue
-        if clone_project(project_download_path,cl_link,project_name):
-            projects_path = project_download_path+'/' + project_name+'/'
+        if clone_project(project_download_path, cl_link, project_name):
+            projects_path = project_download_path + '/' + project_name + '/'
             myg = git.Git(projects_path)
-            req_file_path = get_requirmentfile_paths(projects_path)
+            req_file_path = get_requirement_file_paths(projects_path)
 
             all_req_file_details = []
 
             if len(req_file_path) != 0:
                 for req in req_file_path:
-                    print(req_file_path)
                     req_file_hist = []
                     commit_ana = myg.log('--pretty=%H,%ae,%an,%ad,%ce,%cn,%cd,', '--follow', req[0])
                     if commit_ana == "":
@@ -118,23 +123,54 @@ def req_file_history(project_download,clone_links):
                         all_details_req_file.append(t)
 
                     all_req_file_details += all_details_req_file
-                with open(req_file_download_path+"/" + str(project_name+os.path.relpath(req[0], projects_path)).replace('/','_')[:-4] + '.json', 'w', encoding='utf-8') as f:
-                    print('projects_path',projects_path)
-                    print("req file path",r[0])
+                with open(req_file_download_path + "/" + project_name + '.json', 'w',
+                          encoding='utf-8') as f:
                     json.dump(all_details_req_file, f, ensure_ascii=False, indent=4)
+
 
 def read_csv_file(file_path):
     csv_content = csv.reader(open(file_path), delimiter=',')
-    return [(th[0],th[1]) for th in csv_content][1:]  #return github clone links except the header of the csv file
+    return [(th[0], th[1]) for th in csv_content][1:]  # return github clone links except the header of the csv file
+
+
+def write_list_to_a_file(destination_path, filename, list_container):
+    with open(destination_path + '/' + filename, 'w+') as file:
+        for x in list_container:
+            if type(x) == list:
+                file.write(str(",".join(x)) + '\n')
+            else:
+                file.write(str(x) + '\n')
+    file.close()
+
+
+def get_updated_ml_libraries(req_file_download_path, download_path):
+    updated_libraries = []
+    updates_with_ml_libraries = []
+    ml_libs = Util.get_library_names()
+    updates = req.get_dates_for_library_updates(req_file_download_path)
+    for project, updates in updates.items():
+        for update in updates:
+            updated_libraries.append(update[1])
+            has_ml_libs = False
+            for lib in update[1]:
+                if lib in ml_libs.keys():
+                    has_ml_libs = True
+            if has_ml_libs:
+                updates_with_ml_libraries.append(update[1])
+
+    write_list_to_a_file(download_path + "/", 'all_library_update.txt', updated_libraries)
+    write_list_to_a_file(download_path + "/", 'all_ml_library_updates.txt', updates_with_ml_libraries)
+    write_list_to_a_file(download_path + "/", 'all_ml_library_cascade_updates.txt', [libraries for libraries in updates_with_ml_libraries if len(libraries)>1])
+
 
 def process(download_path, project_csv):
+    req_file_download_path = download_path + "/REQ_FILE_HIST/"
     clone_links = read_csv_file(project_csv)
-    req_file_history(download_path,clone_links)
+    req_file_history(download_path, clone_links)
+    get_updated_ml_libraries(req_file_download_path, download_path)
 
 
-
-
-if __name__== "__main__":
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process Software 2.0.')
     parser.add_argument('PATH', type=str,
                         help='project download path')
