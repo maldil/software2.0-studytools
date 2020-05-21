@@ -1,1 +1,1 @@
-pytorch,tqdm
+tqdm,pytorch
