@@ -1,4 +1,4 @@
-nltk,flask-socketio,scipy,numpy,whoosh,datasketch,flask,matplotlib,ujson
+whoosh,datasketch,flask-socketio,nltk,numpy,matplotlib,ujson,flask,scipy
 datasketch
 nltk
 pytest
@@ -7,8 +7,8 @@ scipy
 arff
 arff
 arff
-ete3,PyQt5
-pydot,tqdm,matplotlib,statsmodels
+PyQt5,ete3
+tqdm,matplotlib,pydot,statsmodels
 cppyy
 plotly
 nltk

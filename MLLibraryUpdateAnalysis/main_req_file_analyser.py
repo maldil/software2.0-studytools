@@ -161,7 +161,8 @@ def get_updated_ml_libraries(req_file_download_path, download_path):
     write_list_to_a_file(download_path + "/", 'all_library_update.txt', updated_libraries)
     write_list_to_a_file(download_path + "/", 'all_ml_library_updates.txt', updates_with_ml_libraries)
     write_list_to_a_file(download_path + "/", 'all_ml_library_cascade_updates.txt', [libraries for libraries in updates_with_ml_libraries if len(libraries)>1])
-
+    print("precentage of ML library updates that trigger cascade library updates",round(len([libraries for libraries in updates_with_ml_libraries if len(libraries)>1])/len(updates_with_ml_libraries),2))
+    print("precentage of library update commits that contain ML library updates",round(len(updates_with_ml_libraries)/len(updated_libraries),2))
 
 def process(download_path, project_csv):
     req_file_download_path = download_path + "/REQ_FILE_HIST/"
