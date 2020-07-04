@@ -9,4 +9,4 @@ Use `pip install -r requirements.txt` to install all the required dependent libr
 
 If you have any question regarding the usage of this toolset, please reach us via https://serene-beach-16261.herokuapp.com (use the *contact us* in the People tab)
 
-You can find additional data that we promised in the paper in the folder [Link](https://github.com/maldil/software2.0-studytools/tree/master/Additional_Data)
+[Link](https://github.com/maldil/software2.0-studytools/tree/master/Additional_Data) Here, you can find additional data that we promised in the paper.
