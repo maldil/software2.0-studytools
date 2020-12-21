@@ -10,3 +10,5 @@ Use `pip install -r requirements.txt` to install all the required dependent libr
 If you have any question regarding the usage of this toolset, please reach us via https://serene-beach-16261.herokuapp.com (use the *contact us* in the People tab)
 
 [Link](https://github.com/maldil/software2.0-studytools/tree/master/Additional_Data) Here, you can find the additional data that we promised in the paper.
+
+[Link](https://github.com/maldil/software2.0-studytools/blob/master/Email_Templates.pdf): Here, You can find email templates.
